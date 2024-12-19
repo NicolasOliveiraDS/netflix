@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black ;
+}
+.net{
+    height: 5rem;
+    width: 8rem;
+}
+header{
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 99;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.text-logo{
+    color: red;
+    font-weight: bold;
+}
+i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    transition: all 0.9s ease-in-out;
+}
+i:hover{
+    color: red;
+    transform: scale(1.5);
+}
+.perfil{
+    margin: 10% auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.titulo{
+    gap: 15px;
+    padding: 15px;
+}
+.text-titulo{
+    color: white;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+    grid-template-rows: repeat(3, 35%); /* 3 linhas */
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.card,.card5{
+    overflow: hidden;
+    height: 15rem;
+    width: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+}
+.card:hover{
+    transform: scale(0.9);
+}
+.card5{
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 15rem;
+    width: 14rem;
+}
+#school{
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

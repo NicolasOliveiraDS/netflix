@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(ferro.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    padding-top: 0px;
+    padding-left: 10px ;
+    padding-right: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    height: 5rem;
+    width: 8rem;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 5px;
+}
+input{
+    padding: 10px 15px;
+    border-radius: 6px;
+    background: transparent;
+    backdrop-filter: blur(6px);
+    border: 1px solid;
+    outline: none;
+    cursor: pointer;
+    transition: all ease-in-out 0.8s;
+}
+input[type='text']{
+    font-weight: bold;
+}
+input:hover{
+    transform: translateY(-2px);
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: rgba(232, 230, 230, 0.35) 0px 5px 15px;
+}
+button{
+    padding: 10px;
+    border-radius: 6px;
+    background: transparent;
+    backdrop-filter: blur(6px);
+    outline: none;
+    cursor: pointer;
+    transition: all ease-in-out 0.8s;
+}
+button:hover{
+    transform: translateY(-2px);
+    box-shadow: rgba(232, 230, 230, 0.35) 0px 0px 15px;
+    outline: none;
+    background-color: white;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+ul li{
+    list-style: none;
+    color: rgb(200, 199, 199);
+    font-family: 'Waltograph';
+    font-weight: bold;
+    cursor: pointer;
+    transition: all ease-in-out 0.8s;
+}
+ul li:hover{
+    transform: translateY(-1px);
+    color:rgb(165, 161, 161);
+}
+section{
+    display: flex   ;
+    align-items: center;
+    justify-content: left;
+    margin:  20% 4% ;
+}
+h3{
+    font-family: 'Waltograph';
+    color: rgb(208, 0, 0);
+    font-size: 25px;
+}
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+h2{
+    color: rgb(255, 252, 252);
+    font-size:20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 33px;
+}
+.one{
+    color: rgb(245, 241, 241);
+    background-color: rgb(255, 5, 5);
+    width: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    color: white;
+}
+p{
+    color: rgb(218, 209, 209);
+    font-weight: lighter;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+.click,.click2{
+    margin: 10px 0px 5px 3px;
+    gap: 20x;
+    height: 3rem;
+    width: 9rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(3, 3, 3);
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: all ease-in-out 0.8s;
+}
+.click:hover{
+    background-color: red;
+    color: white;
+    border: none;
+}
+.click2:hover{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.one1{
+    color: rgb(242, 247, 242);
+    background-color: blue;
+    width: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+
+}
